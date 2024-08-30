@@ -52,8 +52,7 @@ export default function ShoppingCart({
             <div className="card shadow-xs border bg-gray-100">
               <div className="card-body p-lg-5">
                 <OrderSummary 
-                  subtotal={subtotal}
-                />
+                  subtotal={subtotal} textColor={''}                />
               </div>
             </div>
             <div className="d-block d-md-flex">
